@@ -1,26 +1,903 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <title>Amiel Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am Amiel!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:testing@mail.com”>testing@mail.comL</a></li>
-   </ul>
-   </footer>
- </body>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Amiel Sánchez</title>
+    <meta name="Description: CV web page" content="">
+    <meta name="Author: Javier Amiel Irais Sanchez Silva" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                    <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                    <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <div class="s-hero__content-about">
+
+                    <h1>Hi there!</h1>
+
+                    <h3>
+                    I'm an Actuary based in Mexico City, primarily interested in <span>data science</span> and other topics such as <span>mathematics</span>,
+                    <span>statistics</span>, <span>economy-finances</span> and <span>programming</span>.
+                    Always focused in creating data-driven solutions, considering the business requirements and results oriented.
+                    </h3>
+
+                    <h3>
+                    Let's <a class="smoothscroll" href="#about">start scrolling</a>
+                    and learn more <a class="smoothscroll" href="#about">about me</a>.
+                    </h3>
+
+                    <div class="s-hero__content-social">
+                        <a href="https://github.com/Amiel-Sanchez"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/javier-amiel-irais-sánchez-silva-86a309167/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+
+                </div> <!-- end s-hero__content-about -->
+
+            </div>
+        </div> <!-- s-hero__content -->
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> <!-- s-hero__scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/user_00.jpg" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                Hello! my name is Amiel Sánchez and I am from Mexico, also known as the country of tacos and tequila 🌵🌮🥃. <br>
+                I have completed my Bachelors from Universidad Nacional Autonoma de México (UNAM) in Actuary and shortly after
+                graduating, I joined into different teams where I worked on a wide variety of interesting projects on a daily basis. <br>
+                I consider myself a perfectionist and detailed person, all the time I want to solve the problems by thoroughly reviewing,
+                taking different approaches and trying to achieve the best results in short term. <br>
+                I really enjoy collaborating with people who have the same or different background than mine, I always make an effort
+                to learn from their experience and find out how I can put that knowledge into practice, creating and evolving from
+                napkin ideas to functional data models and data tooling. <br>
+                <br>
+                Here are a few of the other activities that I love to do ❤️!<br>
+                    <li>Mentoring and Encouraging</li>
+                    <li>Public Speaking</li>
+                    <li>Team Management</li>
+                    <li>Programming and Modeling</li>
+                    <li>Problem Solving</li>
+                    <li>Creative Thinking</li>
+                </p>
+
+                <hr>
+
+                <div class="row s-about__content-bottom">
+                    <div class="column w-1000-stack">
+                        <h3>Contact Details</h3>
+    
+                        <p>
+                        Javier Amiel Irais Sánchez Silva <br>
+                        Mexico City, MX <br>
+                        <a href="tel:+525559066540">+52 55 5906 6540</a> <br>
+                        <a href="mailto:javier_aiss@hotmail.com">javier_aiss@hotmail.com</a>
+                        </p>
+                        
+                    </div>
+                    <div class="column w-1000-stack">
+                        <a href="resume/resume_amiel.pdf" class="btn btn--download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- resume
+    ================================================== -->
+    <section id="resume" class="s-resume">
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h2>Education and Experience</h2>
+                <hr class="fancy">
+
+            </div>
+        </div>
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+            </div>
+            <div class="column large-9 tab-12">
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">albo fintech</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Data Scientist</span>
+                            <span class="resume-block__header-date">
+                                January 2022 - Present
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        As a data scientist in a fintech, I faced numerous challenges that I had not experienced before.
+                        There is a lot of creative freedom but also complex problems to solve, and one of them was to
+                        redefine the concept of churn within the company.
+                        For this I developed methodologies different from the traditional ones by using the transactional
+                        history of customers and defining a concept of "inactivity".<br>
+                        <br>
+                        Additionally I supported the complience team so that we could obtain the regulation from the
+                        mexican government, automating regulatory reports with information in google cloud platform and
+                        managing the workflow with airflow.
+                    </p>
+                <figure>
+                    <img src="images/albo.png"
+                    srcset="images/albo.png 1000w,
+                    images/albo.png 500w"
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+
+                    <figcaption>
+                        "albo is one of the next companies to become a unicorn" (Soonunicorn Club 2021)
+                    </figcaption>
+                </figure>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">BBVA México</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Data Scientist Associate</span>
+                            <span class="resume-block__header-date">
+                                January 2019 - January 2022
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    To join one of the most important banks in Mexico I participated in a national datatthon, in which
+                    after several stages I was among the 30 finalists of the 500 candidates who participated in total.<br>
+                    <br>
+                    During my time at BBVA, I collaborated with my colleagues in the area of client solutions (a.k.a business
+                    intelligence) in order to develop analytical solutions that would boost the KPI's of the insurance, 
+                    credit and investment squads.<br>
+                    <br>    
+                    I was in charge of the development of the machine learning models, their documentation and end-to-end
+                    production monitoring with the Q&A, Governance and Data Engeenring teams, as well as the full support
+                    and coaching to each of them.
+                        
+                    It should be noted that having an immense amount of data, all these solutions were developed using bigdata
+                    tools such as hadoop, pyspark and programming languages such as python and sql, among others.<br>
+                    <br>
+                    All the key results of my projects were reported personally to the headquarters in Spain, along with the 
+                    squads to validate the effectiveness of the implemented solutions.<br>
+                    <br>    
+                    Personally I like to be proactive, so I also took the role within the area as COP Manager, in which I was
+                    responsible for inviting, coordinating and presenting interesting speakers to my team to ensure that we
+                    were always at the forefront of new technologies and what is happening in the world of analytics outside
+                    the bank.
+                    </p>
+                <figure>
+                    <img src="images/BBVA.jpeg"
+                    srcset="images/BBVA.jpeg 1000w,
+                    images/BBVA.jpeg 500w"
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+
+                    <figcaption>
+                        BBVA, Mexico's largest bank (forbes 2020)
+                    </figcaption>
+                </figure>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Mediacom</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Data Analyst</span>
+                            <span class="resume-block__header-date">
+                                October 2017 - January 2019
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    I worked for the special projects team of the marketing agency mediacom, in which 
+                    I had the responsibility to generate new and innovative methodologies in order to measure
+                    the impact of different media for Coca-Cola, including the calculation of an effective CPM
+                    (eCPM) using viewability and ad-fraud tools for video and display advertising in order to
+                    maximize the ROI of the advertising investment in each of them.
+                    At the same time I implemented an econometric model which distributed the ad spending in
+                    each touch point (radio, tv, digital, out of home and magazines) for each of the Coca-Cola brands,
+                    making a better use of the client's investment, quantifying its impact and allowing 
+                    to save up to 3.9 million dollars in advertising.<br>
+                    <br>    
+                    All the data analysis of the different media (facebook, youtube, spotify, programmatic, etc.) was done
+                    with open source tools such as R, Trifacta and Weka, while the visualization of results was done
+                    with power-bi and tableau.
+                    </p>
+
+                <figure>
+                    <img src="images/mediacom.jpeg"
+                    srcset="images/mediacom.jpeg 1000w,
+                    images/mediacom.jpeg 500w"
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+
+                    <figcaption>
+                        Mediacom Mexico, among the best media agencies in the world (Warc Media 2019)
+                    </figcaption>
+                </figure>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Nacional Financiera</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Database Specialist</span>
+                            <span class="resume-block__header-date">
+                                March 2017 - August 2017
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        My first job was in a Mexican government institution, 
+                        where I faced several problems related to automation of processes such as 
+                        the development of programs to generate financial results or feed some 
+                        databases periodically, along with the methodologies creation to estimate
+                        long-term financial product goals using different programming and statistical
+                        analysis languages (R, VBA) and database managers and spreadsheets
+                        from Microsoft software (Access and Excel).
+                    </p>
+
+                <figure>
+                    <img src="images/Nafinsa.png"
+                    srcset="images/Nafinsa.png 1000w,
+                    images/Nafinsa.png 500w"
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                </figure>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Education</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Facultad de Contaduria y Administración UNAM</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Diploma in Business Administration</span>
+                            <span class="resume-block__header-date">
+                                February 2018 - November 2018
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    I have always been passionate about startups and the history behind them, so to better
+                    understand what it's like to build and create a company from scratch, I took a diploma
+                    course in English to learn about the minimum requirements needed to set up your own company.
+                    There I built a delivery business model that was based on user data that was collected by interacting
+                    with the service to offer the best prices on the purchase of items for parties or particular
+                    events (now there are apps with a similar idea like Royal or Burp!).
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Facultad de Ciencias UNAM</h4>
+                        <p class="resume-block__header-meta">
+                            <span>B.A. Degree in Actuary</span>
+                            <span class="resume-block__header-date">
+                                August 2013 - June 2017
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    I entered Actuarial Science with the objective of learning more about the science
+                    behind the models applied for different purposes (insurance, finance, pensions, etc.),
+                    however during my career I realized that I was more passionate about statistical models
+                    that try to describe the present and future behavior of the population, so I took some 
+                    electives associated with these topics in order to learn more about the subject.
+                    </p>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Programming Languages</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <p>
+                    Knowledge is relative, because the more you learn, the more you realize there is still a 
+                    long way to go, so the following metrics should only be taken hypothetically and not related
+                    to actual experience.
+                    </p>
+
+                    <ul class="skill-bars-fat">
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>R</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent85"></div>
+                        <strong>Python</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent90"></div>
+                        <strong>Pyspark</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent85"></div>
+                        <strong>SQL</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>VBA</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent50"></div>
+                        <strong>Git</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>Visual FoxPro</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent40"></div>
+                        <strong>Matlab</strong>
+                        </li>
+                    </ul>
+
+                </div> <!-- end resume-block -->
+
+            </div>
+        </div> <!-- s-resume__section -->
+
+    </section> <!-- end s-resume -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>A Few Of My Latest Projects</h3>
+            </div>
+        </div>
+
+        <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-01" class="folio-item__thumb">
+                    <img src="images/portfolio/clv.jpeg"
+                         srcset="images/portfolio/clv.jpeg 1x, 
+                                 images/portfolio/clv@2x.jpeg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-02" class="folio-item__thumb">
+                    <img src="images/portfolio/pricing.png" 
+                         srcset="images/portfolio/pricing.png 1x, 
+                                 images/portfolio/pricing@2x.png 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-03" class="folio-item__thumb">
+                    <img src="images/portfolio/class_recom.png" 
+                         srcset="images/portfolio/class_recom.png 1x, 
+                                 images/portfolio/class_recom@2x.png 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-04" class="folio-item__thumb">
+                    <img src="images/portfolio/text_mining.jpeg" 
+                         srcset="images/portfolio/text_mining.jpeg 1x, 
+                                images/portfolio/text_mining@2x.jpeg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-05" class="folio-item__thumb">
+                    <img src="images/portfolio/ocr.jpeg" 
+                         srcset="images/portfolio/ocr.jpeg 1x, 
+                                 images/portfolio/ocr@2x.jpeg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-06" class="folio-item__thumb">
+                    <img src="images/portfolio/sentiment.jpeg" 
+                         srcset="images/portfolio/sentiment.jpeg 1x, 
+                                 images/portfolio/sentiment@2x.jpeg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-07" class="folio-item__thumb">
+                    <img src="images/portfolio/ad_spending.jpeg" 
+                         srcset="images/portfolio/ad_spending.jpeg 1x, 
+                                 images/portfolio/ad_spending@2x.jpeg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-08" class="folio-item__thumb">
+                    <img src="images/portfolio/tequilapp.png" 
+                         srcset="images/portfolio/tequilapp.png 1x, 
+                                 images/portfolio/tequilapp@2x.png 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+        </div> <!-- end folio-list -->
+
+
+        <!-- Modal Templates Popup
+        =========================================================== -->
+        <div id="modal-01" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/clv.jpeg" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Customer Lifetime Value</h5>
+                    <p>I developed and worked on a new methodology using negative binomial distributions 
+                      (NBD models) to know the inactivity of users through the use of their debit card,
+                      with the objective of measuring the value of each user and, in the long term, offer
+                      benefits to those who add more value to the company.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Data Science</li>
+                        <li>Statistical Framework</li>
+                    </ul>
+                </div>
+    
+                <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-02" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/pricing.png" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Dynamic Pricing</h5>
+                    <p>Using different machine learning algorithms of classification and gradient boosting, I built
+                    econometric models of elasticity to measure the sensitivity of customers to price
+                    in different financial products, with the aim of offering the best deal individually
+                    to each of them.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Data Science</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+    
+                <!--  <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-03" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/class_recom.png" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Classification & Recommendation Models</h5>
+                    <p>I built supervised propensity models to identify customers who are more likely to purchase
+                        various financial products using their behavior.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Data Science</li>
+                        <li>Propensity</li>
+                    </ul>
+                </div>
+    
+                <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>  -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-04" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/text_mining.jpeg" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Text Mining</h5>
+                    <p> I used natural language processing techniques to obtain prospects for targeted
+                    marketing campaigns.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Natural Language Processing</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+    
+                <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-05" hidden>
+            <div class="modal-popup">
+
+                <img src="images/portfolio/gallery/ocr.jpeg" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Optical Character Recognition (OCR)</h5>
+                    <p>I worked on a personal project that allows to extract text from pdf documents,
+                    using open source ocr tools with the objective of offering a business solution to
+                    customers who need to digitize their confidential information.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Deep Learning</li>
+                        <li>Image Processing</li>
+                    </ul>
+                </div>
+    
+                <!--  <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-06" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/sentiment.jpeg" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Sentiment Analysis</h5>
+                    <p>I worked on a project which analyzes in real time in a given time range tweets
+                    from users to get the sentiment towards a particular topic (politician, brand, influencer, etc).
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Natural Language Processing</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+    
+               <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-07" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/ad_spending.jpeg" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Ad Spending</h5>
+                    <p>Using multiple linear regression algorithms, a methodology was created that is able to measure
+                    and optimize the investment in different advertising media to maximize the client's margin.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Econometry</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+    
+               <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-08" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/tequilapp.png" alt="" />
+    
+                <div class="modal-popup__desc">
+                    <h5>Application for home delivery of alcoholic beverages</h5>
+                    <p>As a final project of the diploma in Business Administration I developed an MVP of an application
+                    that collects user interests to sell at the best price alcoholic beverages for private events.
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <li>Product Design</li>
+                        <li>Mobile Development</li>
+                    </ul>
+                </div>
+    
+               <!-- <a href="https://www.behance.net/" class="modal-popup__details">Project link</a> -->
+            </div>
+        </div> <!-- end modal -->
+
+
+    </section> <!-- end s-portfolio -->
+
+
+    <!-- CTA
+    ================================================== -->
+     <!--
+    <section class="s-cta">
+
+        <div class="row">
+            <div class="column">
+                <h3 class="h2 section-desc">
+                    Need a great reliable web hosting?
+                </h3>
+            </div>
+        </div> end heading-block -->
+
+         <!--
+        <div class="row cta-content">
+            <div class="column">
+                <p>
+                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                Powerful web and Wordpress hosting. Guaranteed.
+                Starting at $2.95 per month.
+                </p>
+
+                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn btn--primary h-full-width">Get Started</a>
+            </div>
+        </div> end cta-content -->
+
+     <!-- </section> end s-cta -->
+
+
+    <!-- testimonials
+    ================================================== -->
+    <section id="testimonials" class="s-testimonials target-section">
+
+        <div class="s-testimonials__bg"></div>
+
+        <div class="row s-testimonials__header">
+            <div class="column large-12">
+                <h3>Hear What My Colleagues Says</h3>
+            </div>
+        </div>
+
+        <div class="row s-testimonials__content">
+
+            <div class="column">
+
+                <div class="swiper-container testimonial-slider">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user_01.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Juan Manuel Andrade Hernández</strong>
+                                    <span>Chief Data, Analytics & Transformation Officer (CDAO | CXO), Banco Azteca</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Javier is a keen young profesional that excels on any task and project were he has been
+                            involved. Technically speaking he stands on every aspect and as person, he is the kind of human being
+                            that you eagerly want to teamate.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+        
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user_02.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Hisae Hamano</strong>
+                                    <span>Programmatic lead, Spotify</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Javier is impeccable in data analysis. Excellent with handling, reading and presenting information.
+                            I had the pleasure of working with him during his time at MediaHouse Coca Cola and he always showed
+                            a clear understanding of the projects needs. I highly recommend Javier to any company looking for excellence. 
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+        
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user_03.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Luciano Ambriz Martínez</strong>
+                                    <span>Director of Customer Knowledge and Business Intelligence, Grupo Salinas</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Excellent disposition and with the clear objective of generating value through tangible results,
+                            as he has already achieved in the past.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user_04.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Gabriela Castellanos</strong>
+                                    <span>Model Risk Vice President, Scotiabank </span>
+                                </cite>
+                            </div>
+                            <p>
+                            Javier is a very disciplined and responsible person, he carries out his activities with dedication
+                            and honesty.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+    
+                    </div> <!-- end testimonial slider swiper-wrapper -->
+
+                    <div class="swiper-pagination"></div>
+
+                </div> <!-- end swiper-container -->
+
+            </div> <!-- end column -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Say Hello</h3>
+            </div>
+        </div>
+
+        <div class="row s-contact__content">
+
+            <div class="column large-7 medium-12">
+
+                <h4 class="huge-text">
+                Have a new project or proposal in mind? Let's collaborate and build something awesome.
+                Let's turn that idea to an even greater product :)
+                </h4>
+
+            </div>
+
+            <div class="column large-4 medium-12">
+
+                <div class="row contact-infos">
+                    <div class="column large-13 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:javier_aiss@hotmail.com">javier_aiss@hotmail.com</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Phone
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:+525559066540">+52 55 5906 6540</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+
+                    <div class="column large-12">
+                        <a href="mailto:javier_aiss@hotmail.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
+                    </div>
+                </div> <!-- end contact-infos -->
+
+            </div>
+        </div> <!-- s-contact__content -->
+
+    </section> <!-- end s-contact -->
+    
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="https://github.com/Amiel-Sanchez"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#https://www.linkedin.com/in/javier-amiel-irais-sánchez-silva-86a309167/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        <!--
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Copyright Ceevee 2021</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
